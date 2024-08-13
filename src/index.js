@@ -19,5 +19,4 @@ var isValid = function (s) {
 
     console.log(s);
 };
-console.log(check('()', [['(', ')']]));
 }
