@@ -1,4 +1,4 @@
-module.export = function check(str, bracketsConfig) {
+module.exports = function check(str, bracketsConfig) {
   function removeParentheses(s) {
     for (const subArr of bracketsConfig){
         s = s.split(subArr[0]+subArr[1]).join('');
